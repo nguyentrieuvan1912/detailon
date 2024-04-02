@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Góp Ý và Phản Hồi</title>
+    <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" href="..//css/bootstrap.min.css">
+    <script src="..//js/jquery-3.7.1.min.js"></script>
+    <script src="..//js/bootstrap.min.js"></script>
+</head>
+<body>
+    
+
+<div class="container mt-5">
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" href="#">Siêu gia dụng</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="..//html/home.html">Trang Chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="..//html/theodoidonhang.html">Theo dõi đơn hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="..//html/phanhoi.html">Phản hồi</a>
+                    </li>
+                    <li class="nav-item">
+                        <div id="user_box"> 
+                            <a class="nav-link" href="..//html/dangky.html" id="register_user"> Đăng ký </a>
+                            <div class="nav-link" id="kytu"> / </div>
+                            <a class="nav-link" href="..//html/dangnhap.html" id="login_user"> Đăng nhập</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Góp Ý và Phản Hồi</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/submit_feedback" method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="fullName">Họ và Tên:</label>
+                            <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Nhập họ và tên..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại:</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Nhập số điện thoại..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Nhập địa chỉ email..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nội dung:</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Nhập nội dung góp ý hoặc phản hồi..." required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="image">Tải ảnh lên:</label>
+                            <input type="file" class="form-control-file" id="image" name="image">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Gửi</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

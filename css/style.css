@@ -1,0 +1,73 @@
+.nav{
+    margin: 0px auto;
+    padding: 0px;
+}
+
+body {
+    padding-top: 56px;
+}
+
+.navbar {
+    background-color: #248e59;
+    height: 35px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+li{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
+#tcc{
+    font-size: 0.9rem;
+}
+.navbar-brand{
+    margin-left: 150px;
+    padding-top: auto;
+}
+#user_box {
+    float: left;
+    display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    padding-left: 0px;
+}
+.navbar-toggler {
+    padding: 15px;
+    font-size: 10px;
+}
+ul{
+    margin-right: 150px ;
+}
+#kytu{
+    margin-right: -13px;
+    margin-left: -13px;
+}
+.navbar-dark .navbar-toggler-icon {
+    border-color: white;
+}
+
+.navbar-dark .navbar-toggler-icon:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.product-card {
+    margin-bottom: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
