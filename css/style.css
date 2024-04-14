@@ -16,7 +16,7 @@ body {
     color: white;
 }
 
-li{
+#navbarResponsive li{
     margin-left: 5px;
     margin-right: 5px;
     padding-right: 5px;
@@ -27,7 +27,7 @@ li{
     font-size: 0.9rem;
 }
 .navbar-brand{
-    margin-left: 150px;
+    margin-left: 170px;
     padding-top: auto;
 }
 #user_box {
@@ -43,7 +43,7 @@ li{
     font-size: 10px;
 }
 ul{
-    margin-right: 150px ;
+    margin-right: 170px ;
 }
 #kytu{
     margin-right: -13px;
@@ -71,3 +71,95 @@ ul{
     max-width: 100%;
     height: auto;
 }
+.header{
+    border: red solid 1px;
+    width: 100%;
+    height: 100px;
+    margin-top: -20px;
+}
+#logo{
+    height: 100%;
+    float: left;
+}
+.justify-content-center{
+    margin-top: 20px;
+}
+
+/* search */
+.search {
+    position: relative;
+    float: left;
+    text-align: center;
+    margin-top: 30px;
+    width: 400px;
+  }
+  
+  .search input[type="text"] {
+    width: 270px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-left: 30px;
+  }
+  
+  button[type="search"] {
+    margin-top: -10px;
+    background: none;
+    border: none;
+    width: 32px;
+  }
+  
+  button[type="search"] img {
+    margin-left: -30px;
+    width: 32px; 
+    border-radius: 12px;
+  }
+  #giohang {
+    width: 50px; 
+    margin-left: -5px;
+  }
+
+  /* kt search */
+
+  .error-message {
+    color: red;
+    font-size: 13px;
+}
+/* menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    top: 30px;
+    left: -30px;
+}
+
+#navbarNavDropdown li{
+    margin-left: 35px;
+}
+li#fanpage.nav-item {
+    margin-left: 90px;
+}
+#linkpage{
+    color: blue;
+}
+/*kt menu*/
+
+/* box san pham*/
+.product-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .product-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+#gia{
+    color: red;
+}
+.sp{
+    margin-top: 10px;
+}
+/* kt box san pham*/
