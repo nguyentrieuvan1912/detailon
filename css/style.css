@@ -131,7 +131,7 @@ ul{
 .dropdown:hover .dropdown-menu {
     display: block;
     top: 30px;
-    left: -30px;
+    left: -20px;
 }
 
 #navbarNavDropdown li{
