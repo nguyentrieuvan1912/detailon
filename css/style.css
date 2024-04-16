@@ -150,12 +150,17 @@ li#fanpage.nav-item {
     border: 1px solid #ccc;
     padding: 20px;
     margin-bottom: 20px;
-  }
-  .product-img {
-    max-width: 100%;
-    height: auto;
+}
+.col-md-4 .product-img {
+    max-height: 250px;
+    width: 100%;
     margin-bottom: 10px;
-  }
+}
+.col-md-3 .product-img {
+    max-height: 160px;
+    width: 100%;
+    margin-bottom: 10px;
+}
 #gia{
     color: red;
 }
@@ -163,3 +168,64 @@ li#fanpage.nav-item {
     margin-top: 10px;
 }
 /* kt box san pham*/
+/*home*/
+.banchay {
+    background-color: #248e59;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    height: 140px;
+    animation: changeColor 3s infinite alternate; /* Sử dụng animation với keyframes */
+}
+@keyframes changeColor {
+    0% {
+      background-color: #148e51; /* Màu ban đầu */
+    }
+    50% {
+      background-color: #31b090; /* Màu sau 2.5 giây */
+      
+    }
+    100% {
+      background-color: #3ab768; /* Trở lại màu ban đầu sau 5 giây */
+    }
+  }
+.banchay h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    animation: blink 1s infinite alternate;
+}
+@keyframes blink {
+    0% {
+      font-size: 24px; /* Kích thước nhỏ nhất */
+    }
+    100% {
+      font-size: 40px; /* Kích thước lớn nhất */
+    }
+  }
+.banchay p {
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+/*kt home*/
+
+/*footer*/
+.footer{
+    background-color: #ccc;
+    height: 170px;
+}
+.footer-content {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-links {
+    margin-top: 10px;
+  }
+  .footer-links a {
+    color: #333;
+    margin: 0 10px;
+  }
+  .footer-links a:hover {
+    text-decoration: none;
+    color: #007bff;
+  }
