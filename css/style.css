@@ -82,7 +82,8 @@ ul{
     float: left;
 }
 .justify-content-center{
-    margin-top: 20px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* search */
@@ -165,7 +166,7 @@ li#fanpage.nav-item {
     color: red;
 }
 .sp{
-    margin-top: 10px;
+    margin-top: 25px;
 }
 /* kt box san pham*/
 /*home*/
@@ -213,6 +214,7 @@ li#fanpage.nav-item {
 .footer{
     background-color: #ccc;
     height: 170px;
+    margin-top: 50px;
 }
 .footer-content {
     text-align: center;
